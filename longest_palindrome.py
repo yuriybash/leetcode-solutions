@@ -1,3 +1,7 @@
+"""
+Given a string s, find the longest palindromic substring in s.
+"""
+
 class Solution(object):
     def longestPalindrome(self, s):
 

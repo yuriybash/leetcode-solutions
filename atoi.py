@@ -1,3 +1,7 @@
+"""
+Implement atoi which converts a string to an integer.
+"""
+
 import re
 
 class Solution(object):
