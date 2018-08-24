@@ -67,11 +67,3 @@ class Solution(object):
                 k_elems.append(elem)
                 if len(k_elems) == k:
                     return k_elems
-
-assert(Solution().findClosestElements([1,2,3,4,5], 4, 3) == [1, 2, 3, 4])
-assert(Solution().findClosestElements([1,2,3,4,5], 4, -1) == [1, 2, 3, 4])
-assert(Solution().findClosestElements([1,2,3,4,5], 1, 4) == [4])
-assert(Solution().findClosestElements([1, 2, 2, 2, 3, 4,5], 1, 2) == [2])
-assert(Solution().findClosestElements([1, 2, 2, 2, 3, 4, 100], 2, 99) == [4, 100])
-assert(Solution().findClosestElements([1, 2, 3, 4, 100000], 2, 99) == [3, 4])
-assert(Solution().findClosestElements([0,1,1,1,2,3,6,7,8,9], 9, 4 == [0, 1, 1, 1, 2, 3, 6, 7, 8]))
